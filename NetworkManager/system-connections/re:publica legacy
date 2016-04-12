@@ -1,0 +1,21 @@
+[connection]
+id=re:publica legacy
+uuid=575d085f-58d4-4813-a068-dc6acf464a16
+type=wifi
+permissions=
+secondaries=
+
+[wifi]
+ssid=re:publica legacy
+mode=infrastructure
+mac-address=60:67:20:DD:3E:7C
+mac-address-blacklist=
+seen-bssids=
+
+[ipv6]
+method=auto
+dns-search=
+
+[ipv4]
+method=auto
+dns-search=

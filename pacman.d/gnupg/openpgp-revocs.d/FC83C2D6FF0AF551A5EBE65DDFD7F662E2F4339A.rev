@@ -1,0 +1,28 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub  rsa2048/E2F4339A 2015-11-13
+      Key fingerprint = FC83 C2D6 FF0A F551 A5EB  E65D DFD7 F662 E2F4 339A
+uid                  Pacman Keyring Master Key <pacman@localhost>
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before making use of this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+Comment: This is a revocation certificate
+
+iQEfBCABCAAJBQJWRkiqAh0AAAoJEN/X9mLi9DOa4awH/3lQfeVLvaso92S6EynX
+jB+fdb8JTXuP5n4G1Z0Rg5pXrdwrUoyllf4IgEdNjf3pKhwHoAGdjPCB5fzVifMu
+aOUQPvynuWEgCO7Ma2YJWoBnfceHJq/TCrTBSzdzsn0nv7ByynQZ4eHKxzdKRxXr
+Tw9AODKR7lP5OVQkW2cqk1VPct/0ExET1kEg2Ag3J0qQYww2XBzpMntS3J3aFlJT
+3b5WpvWOPhCmFxRlcrTODTYisVCtf1HMa6W5ck/HGd0ZpeUi8nBFj7TjU6c/KEaI
+Cv1v1wIXKHsNRoMNmqk6D+37v45AhxQptIeVQGupX6YXA29QnbH2R7PvkdDfge/R
+pLg=
+=Nk2J
+-----END PGP PUBLIC KEY BLOCK-----

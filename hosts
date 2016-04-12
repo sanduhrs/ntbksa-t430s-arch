@@ -1,0 +1,14 @@
+#
+# /etc/hosts: static lookup table for host names
+#
+
+#<ip-address>	<hostname.domain.org>	<hostname>
+#188.226.153.67  archlinuxarm.org
+#188.226.153.67  mirror.archlinuxarm.org
+#134.119.26.197   calendar.erdfisch.de
+#134.119.26.197   cloud.erdfisch.de
+#134.119.1.79    mail.erdfisch.de smtp.erdfisch.de pop.erdfisch.de imap.erdfisch.de
+127.0.0.1	localhost.localdomain	localhost
+::1		localhost.localdomain	localhost
+
+# End of file

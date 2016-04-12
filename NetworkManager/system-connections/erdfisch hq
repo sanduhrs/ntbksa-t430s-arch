@@ -1,0 +1,31 @@
+[connection]
+id=erdfisch
+uuid=9c7ea201-693c-4723-b58a-f759d49ffeb8
+type=vpn
+autoconnect=false
+permissions=user:sauditor:;
+secondaries=
+timestamp=1452609687
+
+[vpn]
+NAT Traversal Mode=natt
+ipsec-secret-type=save
+IPSec secret-flags=1
+xauth-password-type=save
+Vendor=cisco
+Xauth username=stefan.auditor
+IPSec gateway=217.91.235.71
+Xauth password-flags=1
+IPSec ID=stefan.auditor
+Perfect Forward Secrecy=server
+IKE DH Group=dh2
+Local Port=0
+service-type=org.freedesktop.NetworkManager.vpnc
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+dns-search=
+method=auto

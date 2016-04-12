@@ -1,0 +1,25 @@
+[logging]
+ default = FILE:/var/log/krb5libs.log
+ kdc = FILE:/var/log/krb5kdc.log
+ admin_server = FILE:/var/log/kadmind.log
+
+[libdefaults]
+ default_realm = ERDFISCH.DE
+ dns_lookup_realm = false
+ dns_lookup_kdc = false
+ rdns = false
+ ticket_lifetime = 24h
+ forwardable = yes
+ allow_weak_crypto = true
+
+[realms]
+ERDFISCH.DE = {
+  kdc = identity.erdfisch.de:88
+  admin_server = identity.erdfisch.de:749
+  default_domain = erdfisch.de
+}
+
+[domain_realm]
+ .erdfisch.de = ERDFISCH.DE
+ erdfisch.de = ERDFISCH.DE
+

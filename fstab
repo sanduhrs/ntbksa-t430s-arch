@@ -1,0 +1,12 @@
+# UUID=c66ff18b-9849-4c2b-9e2e-2c412383c87e
+/dev/mapper/main-root	/mnt      	ext4      	rw,relatime,data=ordered	0 1
+
+# UUID=80b76742-f898-4bf4-b431-52d622c1378f
+/dev/sda1           	/boot     	ext4      	rw,relatime,data=ordered	0 2
+
+# UUID=9176fc55-ae6c-4efb-b7d6-eea3ed3dfa4c
+/dev/mapper/main-home	/home     	ext4      	rw,relatime,data=ordered	0 2
+
+# UUID=6e422759-80b0-480d-9a83-735f1e42cc70 LABEL=swap
+/dev/mapper/main-swap	none      	swap      	defaults  	0 0
+
